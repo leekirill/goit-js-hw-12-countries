@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.country-search__input {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
+}
+
+.country-search__input:focus {
+    background-color: #fff;
+    border: 1px solid #ececec;
+    outline: none;
+}
+
+.country-search__input:hover {
+    background-color: #f7f7f7;
+    outline: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.country-search {
+    text-align: center;
+}
+
+.country-search__input {
+    height: 30px;
+    width: 230px;
+    border: none;
+    background: #ececec;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.countries-list {
+    list-style: none;
+}
+
+.countreis-list__item {
+    margin-bottom: 5px;
+}
+
+img {
+    width: 260px;
+    height: auto;
+}
+
+.languages-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.profile-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.country-name {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.data-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 14px;
+    text-align: center;
+}
