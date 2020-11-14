@@ -129,10 +129,10 @@ var BASE_URL = 'https://restcountries.eu/rest/v2/name';
 function fetchCountriesByName(name) {
   return fetch("".concat(BASE_URL, "/").concat(name)).then(function (response) {
     if (!response.ok) {
-      throw new Error('Not 2xx response');
-    } else {
-      return response.json();
+      throw new Error();
     }
+
+    return response.json();
   });
 }
 
@@ -140,7 +140,6 @@ var _default = {
   fetchCountriesByName: fetchCountriesByName
 };
 exports.default = _default;
-console.log(fetchCountriesByName());
 },{}],"../js/getRefs.js":[function(require,module,exports) {
 "use strict";
 
@@ -2934,7 +2933,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56698" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61655" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
